@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mistral"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+huggingface-hub = "^0.23.1"
+llama-cpp-python = {extras = ["server"], version = "^0.2.76"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
